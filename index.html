@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Calculator</title>
+  </head>
+  <body onkeydown="enter(event)">
+    <div class="box" id="container">
+        <div class="contentBox">
+          <h1>x Calculator x</h1>
+          <div class="caluContent" id="calculator">
+            <nav class="output_result" id="calResult"></nav>
+            <nav class="oper_tobBowl btn_operator" id="topOpertor">
+              <span></span>
+            </nav>
+            <nav class="btn_number" id="calNumber"></nav>
+            <nav class="oper_sideBowl btn_operator" id="calOperator"></nav>
+            <nav class="oper_bottomBowl btn_operator" id="lastRow"></nav>
+          </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
